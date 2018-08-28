@@ -3,12 +3,12 @@
 
 ## Docker Compose
 
-** Build Image **
+Build Image
 ```
 docker-compose build
 ```
 
-** Run Image **
+Run Image
 ```
 docker-compose up
 open http://localhost:3000
@@ -17,12 +17,12 @@ open http://localhost:3000
 
 ## Docker
 
-** Build Image **
+Build Image
 ```
 docker build -t dockerflask .
 ```
 
-** Run Image **
+Run Image
 ```
 docker run -p 3000:80 dockerflask
 open http://localhost:3000
