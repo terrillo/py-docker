@@ -20,4 +20,7 @@ ENV PYTHONPATH=/app
 
 ENTRYPOINT ["/nginx.sh"]
 
+# Start Server
+CMD ["/start.sh"]
+
 EXPOSE 80 443
